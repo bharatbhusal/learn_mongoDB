@@ -1,10 +1,11 @@
 {
   "name": "learn_mongodb",
   "version": "1.0.0",
-  "description": "Lerning NoSQLDatabase using mongodb",
-  "main": "index.js",
+  "description": "Lerning NoSQL Database using mongodb",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/bharatbhusal/learn_mongoDB/issues"
   },
-  "homepage": "https://github.com/bharatbhusal/learn_mongoDB#readme"
+  "homepage": "https://github.com/bharatbhusal/learn_mongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
