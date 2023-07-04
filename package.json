@@ -1,0 +1,19 @@
+{
+  "name": "learn_mongodb",
+  "version": "1.0.0",
+  "description": "Lerning NoSQLDatabase using mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharatbhusal/learn_mongoDB.git"
+  },
+  "author": "Bharat Bhusal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharatbhusal/learn_mongoDB/issues"
+  },
+  "homepage": "https://github.com/bharatbhusal/learn_mongoDB#readme"
+}
